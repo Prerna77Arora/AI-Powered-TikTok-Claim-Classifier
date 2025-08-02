@@ -77,7 +77,7 @@ Predict whether a video contains a **claim** or an **opinion**.
 │   └── executive_summary.pdf           # Non-technical summary for stakeholders
 ├── PACE_strategy.pdf                   # Planning and strategy document
 └── README.md                           # Project overview (this file)
-
+```
 ---
 
 ## 🧰 Tools & Libraries
@@ -90,7 +90,7 @@ This project is implemented using **Python** and the following libraries:
 - **Scikit-learn** – Machine learning model building & evaluation  
 - **XGBoost / RandomForest** – Classification algorithms  
 - **Jupyter Notebook** – Analysis environment  
-```
+
 ---
 
 ## 📊 Machine Learning Workflow

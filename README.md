@@ -1,6 +1,5 @@
 # CaseStudy--Tiktok_Claim_Classifie
-# AI-Powered TikTok Claim Classifier
-# TikTok Claims Classification Project 🎬
+# AI-Powered TikTok Claim Classifier 🎬
 
 This project is the **Course 6 End-of-Course Portfolio Project** from the **Google Advanced Data Analytics Certificate**.  
 The goal is to **build, evaluate, and summarize** a machine learning model that classifies TikTok videos as either **claims** or **opinions**, helping the moderation team prioritize user reports efficiently.

@@ -6,33 +6,77 @@ The goal is to **build, evaluate, and summarize** a machine learning model that 
 
 ---
 
-## 📌 Project Overview
+# CaseStudy--Tiktok_Claim_Classifier
+# 🎬 AI-Powered TikTok Claim Classifier  
 
-TikTok receives a large number of **user reports** on videos that may contain **claims** or **opinions**.  
-Currently, human moderators review these reports, which can lead to delays.  
-
-By creating a **predictive machine learning model**, TikTok can:  
-- Reduce the backlog of reports  
-- Prioritize critical content for review  
-- Improve the efficiency of content moderation  
+This project is the **Course 6 End-of-Course Portfolio Project** from the **Google Advanced Data Analytics Certificate**.  
+The goal is to **build, evaluate, and summarize** a machine learning model that classifies TikTok videos as either **claims** or **opinions**, helping the moderation team prioritize user reports efficiently.
 
 ---
 
-## 📂 Project Files
+## 📖 Project Overview
 
-- **`Tiktok.ipynb`** – Jupyter Notebook containing the full analysis, model development, and evaluation  
-- **`README.md`** – Project overview and documentation  
-- *(Optional)* **`data/`** – Directory for any CSV or JSON files used in the project  
+TikTok receives thousands of **user reports** on videos that may contain **claims** or **opinions** daily.  
+Currently, **human moderators** review all these reports, which is **time-consuming** and can lead to **delays**.  
+
+By leveraging **machine learning**, we aim to:  
+- Automatically classify content as **claims** or **opinions**  
+- Prioritize critical claim-related videos for faster moderation  
+- Improve **efficiency** in the content review pipeline  
 
 ---
 
-## 🎯 Objectives
+## 🏢 Background
 
-1. Perform **feature engineering** on the claims classification dataset  
-2. **Build and train** a machine learning model to classify videos  
-3. **Evaluate** model performance using metrics like accuracy, precision, recall, and F1-score  
-4. **Summarize findings** for technical and non-technical stakeholders  
-5. Deliver an **executive summary** for cross-functional TikTok teams  
+**Client:** TikTok Content Moderation Team  
+- Handles millions of video uploads daily  
+- Faces challenges in **scaling human moderation**  
+
+**Business Need:**  
+Classify videos to **speed up moderation** and **reduce backlog**.
+
+**Original Request:**  
+Predict whether a video contains a **claim** or an **opinion**.  
+
+**Value Delivered:**  
+- Automated claim detection reduces manual workload  
+- High recall ensures **claims are not missed**  
+- Supports moderation **without impacting user experience**  
+
+---
+
+## 🎯 Project Goals
+
+1. **Data Preprocessing & Feature Engineering**  
+   - Clean and explore the dataset  
+   - Convert video transcriptions to numerical features (TF-IDF)  
+   - Encode categorical variables  
+
+2. **Model Building & Training**  
+   - Implement tree-based classifiers (Random Forest, XGBoost)  
+   - Tune hyperparameters using **RandomizedSearchCV** with cross-validation  
+
+3. **Model Evaluation**  
+   - Use **accuracy, precision, recall, and F1-score** to evaluate performance  
+   - Focus on **recall** to minimize missing claim videos  
+
+4. **Reporting & Communication**  
+   - Provide an **executive summary** for non-technical teams  
+   - Deliver insights and recommendations to TikTok stakeholders  
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+├── data/
+│   └── tiktok_claims_dataset.csv       # Dataset used for model training (if applicable)
+├── notebooks/
+│   └── Tiktok_Claim_Classifier.ipynb   # Full ML workflow & analysis
+├── reports/
+│   └── executive_summary.pdf           # Non-technical summary for stakeholders
+├── PACE_strategy.pdf                   # Planning and strategy document
+└── README.md                           # Project overview (this file)
 
 ---
 
@@ -46,7 +90,7 @@ This project is implemented using **Python** and the following libraries:
 - **Scikit-learn** – Machine learning model building & evaluation  
 - **XGBoost / RandomForest** – Classification algorithms  
 - **Jupyter Notebook** – Analysis environment  
-
+```
 ---
 
 ## 📊 Machine Learning Workflow

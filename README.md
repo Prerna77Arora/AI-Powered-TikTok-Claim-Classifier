@@ -1,4 +1,4 @@
-# CaseStudy--Tiktok_Claim_Classifie
+# CaseStudy--Tiktok_Claim_Classifier
 # AI-Powered TikTok Claim Classifier 🎬
 
 This project is the **Course 6 End-of-Course Portfolio Project** from the **Google Advanced Data Analytics Certificate**.  
